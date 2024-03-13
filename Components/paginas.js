@@ -1,4 +1,4 @@
-const paginas = document('DOMContent'){
+const paginas = document('DOMContentLoaded'){
     render: {
 
     },

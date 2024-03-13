@@ -1,12 +1,14 @@
 // Boton empezar pagina principal
 
 
-document.getElementById('btnEmpezar').addEventListener('click', function){
+document.getElementById('btnEmpezar').addEventListener('click',(abrirPagina))
     function abrirPagina(){
         window.location.href('calidad.html');
-    
     }
-}
+
+
+contenedor.addEventListener('click', function(event){if (event.target = true){contenedor.style.display = flex}})
+
 
 
 // Pagina 2 opciones de calidad 
@@ -33,13 +35,13 @@ function calidadPagina(){
             }
         }
     }{
-        (NoCalidad == onclick){
+        (NoCalidad == onclick)
             for (i = 0; i < NoCalidad; i++){
                 document.getElementById('NoCalidad').value = i;
             }
         }
     }
-}
+
 
 
 // Pagina 3 Tipo app
@@ -67,13 +69,13 @@ function calidadPagina(){
             }
         }
     }{
-        (NoCalidad == onclick){
+        (NoCalidad == onclick)
             for (i = 0; i < NoCalidad; i++){
                 document.getElementById('NoCalidad').value = i;
             }
         }
     }
-}
+
 
 
 // Pagina 4 Diseño App
@@ -101,13 +103,13 @@ function calidadPagina(){
             }
         }
     }{
-        (NoCalidad == onclick){
+        (NoCalidad == onclick)
             for (i = 0; i < NoCalidad; i++){
                 document.getElementById('replicada').value = i;
             }
         }
     }
-}
+
 
 
 
