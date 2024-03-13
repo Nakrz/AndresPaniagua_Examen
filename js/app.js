@@ -76,3 +76,38 @@ function calidadPagina(){
 }
 
 
+// Pagina 4 Diseño App
+
+const sencilla = 2000000
+const personalizada = 3000000
+const replicada = 800000
+const noDiseño = 3500000
+
+document.getElementById('sencilla').value
+document.getElementById('personalizada').value
+document.getElementById('replicada').value
+document.getElementById('noDiseño').value
+
+
+function calidadPagina(){
+    if(calidadOptima== onclick){
+        for (i = 0; i < calidadOptima; i++){
+            document.getElementById('sencilla').value = i;
+        }
+    }else{
+        if(calidadPrecio == onclick){
+            for (i = 0; i < calidadPrecio; i++){
+                document.getElementById('personalizada').value = i;
+            }
+        }
+    }{
+        (NoCalidad == onclick){
+            for (i = 0; i < NoCalidad; i++){
+                document.getElementById('replicada').value = i;
+            }
+        }
+    }
+}
+
+
+
